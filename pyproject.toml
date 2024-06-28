@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "xhc"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+websockets = "^12.0"
+ptyprocess = "^0.7.0"
+tornado = "^6.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
